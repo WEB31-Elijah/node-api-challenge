@@ -1,3 +1,11 @@
+const server = require('./api/server.js')
+
+const PORT = 5555
+
+server.listen(PORT, () =>
+  console.log(`-- server running on localhost:${PORT} --`)
+)
+
 /*
 play this: https://www.youtube.com/watch?v=d-diB65scQU
 
